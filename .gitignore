@@ -1,0 +1,13 @@
+# publish only the code, the README and the paper
+/*
+!/README.md
+!/.gitignore
+!/ocvlp/
+!/tests/
+!/paper/
+!/kaggle/
+/kaggle/*
+!/kaggle/prepare_kaggle.py
+!/kaggle/kernel_run.py
+__pycache__/
+*.pyc
